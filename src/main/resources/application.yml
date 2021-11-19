@@ -1,11 +1,15 @@
-my.greeting: Hello
-my.list.values: one,two,three
+my:
+   greeting: Hello
+   list:
+       values: one,two,three
+
 dbValues: "{connectionString: 'http://___',userName: 'foo',password: 'pass'}"
 
 
-db.connection: "{connectionString: 'http://___',userName: 'foo',password: 'pass'}"
-db.host: 127.0.01
-db.port: 1200
+db:
+   connection: "{connectionString: 'http://___',userName: 'foo',password: 'pass'}"
+   host: 127.0.01
+   port: 1200
 
 management.endpoints.web.exposure.include: "*"
 
