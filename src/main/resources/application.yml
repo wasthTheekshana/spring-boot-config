@@ -22,3 +22,6 @@ management.endpoints.web.exposure.include: "*"
 
 #app.name: My app
 #app.description: Welcome tp ${my.greeting}
+spring:
+   profiles:
+      active: test
